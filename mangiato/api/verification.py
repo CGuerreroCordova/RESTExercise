@@ -54,8 +54,8 @@ def send_email(email_to, subject, template):
     :return: none
     :type: void
     """
-    username = "goldenmaster@gmail.com"
-    password = "joaappqpgtuywbpm"
+    username = ""
+    password = ""
     smtp_server = "smtp.gmail.com:587"
     msg = EmailMessage()
     msg['Subject'] = subject
