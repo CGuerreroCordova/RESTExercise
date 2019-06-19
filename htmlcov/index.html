@@ -1,0 +1,347 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">88%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>1418</td>
+                <td>169</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="1249 1418">88%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato___init___py.html">mangiato\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato___main___py.html">mangiato\__main__.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api___init___py.html">mangiato\api\__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_business___init___py.html">mangiato\api\business\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_business_invitations_py.html">mangiato\api\business\invitations.py</a></td>
+                <td>167</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="128 167">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_business_meals_py.html">mangiato\api\business\meals.py</a></td>
+                <td>264</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="235 264">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_business_profiles_py.html">mangiato\api\business\profiles.py</a></td>
+                <td>90</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 90">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_business_users_py.html">mangiato\api\business\users.py</a></td>
+                <td>226</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="196 226">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints___init___py.html">mangiato\api\endpoints\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints_invitations_py.html">mangiato\api\endpoints\invitations.py</a></td>
+                <td>56</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 56">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints_login_py.html">mangiato\api\endpoints\login.py</a></td>
+                <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 15">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints_meals_py.html">mangiato\api\endpoints\meals.py</a></td>
+                <td>55</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 55">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints_profiles_py.html">mangiato\api\endpoints\profiles.py</a></td>
+                <td>41</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 41">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_endpoints_users_py.html">mangiato\api\endpoints\users.py</a></td>
+                <td>58</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 58">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_filtering_py.html">mangiato\api\filtering.py</a></td>
+                <td>43</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 43">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_parsers_py.html">mangiato\api\parsers.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 19">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_restplus_py.html">mangiato\api\restplus.py</a></td>
+                <td>6</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 6">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_serializers_py.html">mangiato\api\serializers.py</a></td>
+                <td>26</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 26">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_api_verification_py.html">mangiato\api\verification.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_app_config_py.html">mangiato\app_config.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_avatars___init___py.html">mangiato\avatars\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_constants_py.html">mangiato\constants.py</a></td>
+                <td>69</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 69">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_database___init___py.html">mangiato\database\__init__.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_database_models_py.html">mangiato\database\models.py</a></td>
+                <td>143</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="132 143">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_globals_py.html">mangiato\globals.py</a></td>
+                <td>17</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 17">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_mangiato_api_py.html">mangiato\mangiato_api.py</a></td>
+                <td>63</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 63">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_static___init___py.html">mangiato\static\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="mangiato_test_config_py.html">mangiato\test_config.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.2</a>,
+            created at 2019-02-19 18:25
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

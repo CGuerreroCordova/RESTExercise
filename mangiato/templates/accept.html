@@ -1,0 +1,43 @@
+<html>
+   <body>
+   <h1 style="text-align: center;"><span style="color: #ff6600;">Accepting invitation to Mangiato:</span></h1>
+    <h3 style="text-align: center;">Please fill in the following fields to complete your registration</h3>
+      <form action = {{url_accept}} method = "POST" novalidate>
+          {{ form.hidden_tag() }}
+         <p style="text-align: center;">
+             {{ form.first_name.label }}
+             {{ form.first_name(size=32) }}<br>
+             {% for error in form.first_name.errors %}
+             <span style="color: red;">[{{ error }}]</span>
+             {% endfor %}
+         </p>
+         <p style="text-align: center;">
+
+             {{ form.last_name.label }}
+             {{ form.last_name(size=32) }}<br>
+             {% for error in form.last_name.errors %}
+             <span style="color: red;">[{{ error }}]</span>
+             {% endfor %}
+
+         </p>
+          <p style="text-align: center;">
+              {{ form.password.label }}
+              {{ form.password(size=32) }}<br>
+              {% for error in form.password.errors %}
+              <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+
+         </p>
+          <p style="text-align: center;">
+              {{ form.confirm.label }}
+              {{ form.confirm(size=32) }}<br>
+              {% for error in form.confirm.errors %}
+              <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+         </p>
+         <p style="text-align: center;">
+            {{ form.submit() }}
+         </p>
+      </form>
+   </body>
+</html>
