@@ -17,6 +17,8 @@ It is recommended to install in a virtual environment created with python 3.7.2 
 
 Once the necessary set of files is available, you only need to execute:
 
+`git clone https://github.com/CGuerreroCordova/RESTExercise.git`
+
 `python setup.py install`
 
 ### Tests
