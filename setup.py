@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 INSTALL_REQUIREMENTS = ["flask==1.0.2", "flask_restplus==0.12.1",
                         "passlib==1.7.1", "pyparsing==2.3.1","pyopenssl",
                         "flask-avatars==0.2.1", "flask-wtf==0.14.2", 
-                        "flask-httpauth==3.2.4", "sqlalchemy==1.2.17",
+                        "flask-httpauth==3.2.4", "sqlalchemy==1.3.0",
                         "flask_sqlalchemy==2.3.2"]
 
 
